@@ -195,3 +195,34 @@ body * {
 .color {
     color: #E3B873;
 }
+
+.block1-text {
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    margin: 18px 0px 41px;
+    color: white;
+}
+
+.but2 {
+    width: 207px;
+    height: 51px;
+    margin-right: 20px;
+}
+
+.but2-1 {
+    width: 207px;
+    height: 51px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 18px 23px 21.5px 22px;
+    box-shadow: none;
+}
+
+.but2-1:hover {
+    color: #E3B873;
+    border: 1px solid #006398;
+    box-shadow: 2px 2px 10px #AFE9FF;
+  }
