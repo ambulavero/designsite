@@ -46,6 +46,9 @@ body * {
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
+    Font-family: 'Nunito Sans';
+    Line-height: 15px;
+    Vertical-align: Top;
 }
 
 .header-navigation {

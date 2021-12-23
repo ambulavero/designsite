@@ -114,6 +114,9 @@ body * {
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
+    Font-family: 'Nunito Sans';
+    Line-height: 15px;
+    Vertical-align: Top;
 }
 
 .header-navigation {
@@ -164,10 +167,10 @@ body * {
 }
 
 .block1-box {
-    padding-top: 194px;
+    padding-top: 85px;
     margin-left: 134px;
-    width: 515px;
-    height: 499px;
+    width: 339px;
+    height: 330px;
     position: relative;
     z-index: 1;
 }
@@ -176,8 +179,8 @@ body * {
     font-family: 'Nunito Sans';
     font-weight: normal;
     font-style: normal;
-    font-size: 22px;
-    margin-top: 18px;
+    font-size: 14px;
+    margin-top: 19px;
     color: white;
 }
 
@@ -186,8 +189,8 @@ body * {
     font-family: 'Yeseva One', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 53px;
+    font-size: 23px;
+    line-height: 31px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
