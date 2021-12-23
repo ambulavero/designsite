@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', Arial;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(../fonts/NunitoSans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url(../fonts/YesevaOne/YesevaOne-Regular.ttf);
+}
+
+.header {
+    background-color: black;
+}
+
+.box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #E3B873;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    margin-left: 92px;
+}
+
+.menu {
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.cts {
+    width: 67px;
+    margin-right: 67px;
+}
+
+.header-navigation__link {
+    text-decoration: none;
+    color: white; 
+}
+
+.phone-numb {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right; 
+    text-decoration-line: underline;
+    color: #E3B873;
+    margin-left: 20px;
+}
+
+.but1 {
+    width: 161px;
+    height: 37px;
+}
+
+.button {
+    text-transform: uppercase;  
+    border-radius: 2px;
+    font-size: 11px;
+    padding: 13px 33px;
+    cursor: pointer;
+    color: white;
+    background-color: #E3B873;
+    font-family: "Nunito Sans";
+    font-weight: normal;
+    font-style: italic;
+    border: 0;
+    outline: 0;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 90px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+  }
+  
+.button:hover {
+    color: #006398;
+    border: 0px solid #006398;
+    box-shadow: 1px 1px 10px #AFE9FF;
+  }
+  
+.button.color-change {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
