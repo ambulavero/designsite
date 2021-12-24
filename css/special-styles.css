@@ -234,7 +234,7 @@ body * {
 .block2 {
     background-color: #131313;
     background-size: cover;
-    height: 1553px;
+    height: 1380px;
 }
 
 .box.block2-box {
@@ -247,7 +247,7 @@ body * {
 
 .b21-box {
     width: 768px;
-    height: 1553px;
+    height: 1583px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -477,6 +477,7 @@ body * {
     width: 230px;
     height: 80px;
     margin-top: 58px;
+    margin-bottom: 40px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -512,3 +513,41 @@ body * {
 .cam {
     margin-right: 7.76px;
 }
+
+.online_c {
+    width: 768px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.online_c-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.start-button {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.triangle_start {
+    width: 28px;
+    height: 28px;
+    margin-left: 6px;
+}
+
