@@ -225,3 +225,245 @@ body * {
     box-shadow: 2px 2px 10px #AFE9FF;
 }
 
+.block2 {
+    background-color: #131313;
+    background-size: cover;
+    height: 1553px;
+}
+
+.box.block2-box {
+    width: 768px;
+    display: flex;
+    flex-flow: column wrap;
+    position: static;
+}
+
+.b21-box {
+    width: 768px;
+}
+
+.b21-box2 {
+    display: none;
+}
+
+.block2-h2 {
+    width: 253px;
+    height: 66px;
+    margin: 69px 239px 34px 0px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.block2-text {
+    width: 442px;
+    height: 86px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.b22-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.b221-box {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.b221-h {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 66px;
+    height: 22px;
+    margin: 0px 124px 9px 0px;
+}
+
+.b221-h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 156px;
+    height: 22px;
+    margin: 0px 34px 9px 0px;
+}
+
+.b221-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 110px;
+    height: 42px;
+    margin: 0px 80px 34px 0px;
+}
+
+.b221-text2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 103px;
+    height: 24px;
+    margin: 0px 80px 34px 0px;
+}
+
+.b221-h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 213px;
+    height: 22px;
+    margin: 0px 89px 9px 0px;
+}
+
+.b22b-c1 {
+    width: 190px;
+    height: 166px;
+}
+
+.b22b-c2 {
+    width: 302px;
+    height: 166px;
+}
+
+.b2-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 75px;
+}
+
+.arrow-left {
+    margin-right: 29.5px;
+}
+
+.square1 {
+    width: 9.57px;
+    height: 9.57px;
+    color: white;
+    border-radius: 30%;
+    margin-right: 17.54px;
+}
+
+.square2 {
+    width: 9.57px;
+    height: 9.57px;
+    color: white;
+    border-radius: 30%;
+    margin-right: 17.54px;
+}
+
+.square3 {
+    width: 9.57px;
+    height: 9.57px;
+    color: white;
+    border-radius: 30%;
+    margin-right: 29.5px;
+}
+
+.b22-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1171px;
+    height: 69px;
+}
+
+.b22-a {
+    margin: 0px 60.5px 45px 0px;
+    height: 23px;
+    text-transform: uppercase;
+    Font-family: 'Yeseva One';
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 19.4px;
+    Vertical-align: Top;
+    color: #E3B873;
+    text-decoration: none;
+    border-bottom: 1px solid #E3B873;
+    display: none;
+}
+
+.b22-a2 {
+    color: rgba(255, 255, 255, 0.3);
+    border: none;
+    display: none;
+}
+
+.boda-img {
+    width: 679px;
+    height: 482px;
+    margin: 0px;
+    display: none;
+}
+
+.b2-sbt-cam {
+    width: 196px;
+    height: 67px;
+    position: absolute;
+    top: 750px;
+    left: 623.5px;
+    right: 620.5px;
+    bottom: 257px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.subtitle {
+    Font-family: 'Yeseva One';
+    text-transform: uppercase;
+    Font-size: 20px;
+    Font-style: normal;
+    Line-height: 27.72px;
+    Vertical-align: Top;
+    Color: white;
+}
+
+.sbt-cam-t {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.camera_block {
+    display: flex;
+    width: 196px;
+    height: 28px;
+    justify-content: center;
+}
+
+.line1 {
+    margin-right: 9.47px;
+}
+
+.cam {
+    margin-right: 7.76px;
+}
