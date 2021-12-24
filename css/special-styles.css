@@ -168,31 +168,37 @@ body * {
 
 .block1-box {
     padding-top: 85px;
-    margin-left: 134px;
-    width: 339px;
-    height: 330px;
+    width: 768px;
+    height: 476px;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .block1-text {
+    width: 400px;
     font-family: 'Nunito Sans';
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
     margin-top: 19px;
     color: white;
+    text-align: center;
 }
 
 .title {
     margin: 0;
+    width: 400px;
     font-family: 'Yeseva One', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 27px;
     line-height: 31px;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .color {
@@ -233,6 +239,7 @@ body * {
 
 .box.block2-box {
     width: 768px;
+    height: 1553px;
     display: flex;
     flex-flow: column wrap;
     position: static;
@@ -240,6 +247,45 @@ body * {
 
 .b21-box {
     width: 768px;
+    height: 1553px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.projmob {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.button.but2.but-right {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    margin: 0px 14px 0px 0px;
+    padding: 0px;
+    align-self: flex-end;
+    border-radius: 50%;
+}
+
+.button.but2.but-left {
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    margin: 0px 0px 0px 14px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.but-left-ar {
+    margin: 4px 2px 0px 0px; 
+}
+
+.but-right-ar {
+    margin: 4px 0px 0px 2px;
 }
 
 .b21-box2 {
@@ -249,7 +295,7 @@ body * {
 .block2-h2 {
     width: 253px;
     height: 66px;
-    margin: 69px 239px 34px 0px;
+    margin: 36px 61px 22px;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: normal;
@@ -258,6 +304,7 @@ body * {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
+    text-align: center;
 }
 
 .block2-text {
@@ -270,16 +317,20 @@ body * {
     line-height: 27px;
     color: #FFFFFF;
     margin-bottom: 42px;
+    text-align: center;
 }
 
 .b22-box {
     display: flex;
     flex-flow: row wrap;
+    width: 732px;
+    margin-top: 37px;
 }
 
 .b221-box {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 }
 
 .b221-h {
@@ -290,9 +341,9 @@ body * {
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
-    width: 66px;
+    width: 213px;
     height: 22px;
-    margin: 0px 124px 9px 0px;
+    margin: 0px 0px 9px 20px;
 }
 
 .b221-h2 {
@@ -332,26 +383,13 @@ body * {
     margin: 0px 80px 34px 0px;
 }
 
-.b221-h3 {
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: #E3B873;
-    width: 213px;
-    height: 22px;
-    margin: 0px 89px 9px 0px;
-}
-
 .b22b-c1 {
-    width: 190px;
+    width: 366px;
     height: 166px;
 }
 
 .b22b-c2 {
-    width: 302px;
+    width: 366px;
     height: 166px;
 }
 
@@ -359,6 +397,7 @@ body * {
     display: flex;
     flex-flow: row nowrap;
     margin-top: 75px;
+    display: none;
 }
 
 .arrow-left {
@@ -427,27 +466,33 @@ body * {
 .b2-sbt-cam {
     width: 196px;
     height: 67px;
-    position: absolute;
-    top: 750px;
-    left: 623.5px;
-    right: 620.5px;
-    bottom: 257px;
+    margin-top: 92px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    display: none;
+}
+
+.b2-sbt-cam-mob {
+    width: 230px;
+    height: 80px;
+    margin-top: 58px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
 
-.subtitle {
+.subtitle-mob {
     Font-family: 'Yeseva One';
     text-transform: uppercase;
-    Font-size: 20px;
+    Font-size: 24px;
     Font-style: normal;
-    Line-height: 27.72px;
+    Line-height: 30.52px;
     Vertical-align: Top;
     Color: white;
 }
 
-.sbt-cam-t {
+.sbt-cam-t-mob {
     margin: 0px;
     display: flex;
     margin-bottom: 12px;

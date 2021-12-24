@@ -203,7 +203,7 @@ body * {
 
 .block2-box {
     width: 1171px;
-    height: 553px;
+    height: 969px;
     position: absolute;
     top: 107px;
     right: 134.5px;
@@ -215,6 +215,10 @@ body * {
 .b21-box {
     width: 492px;
     height: 553px;
+}
+
+.projmob {
+    display: none;
 }
 
 .block2-h2 {
@@ -395,14 +399,14 @@ body * {
 .b2-sbt-cam {
     width: 196px;
     height: 67px;
-    position: absolute;
-    top: 750px;
-    left: 623.5px;
-    right: 620.5px;
-    bottom: 257px;
+    margin-top: 92px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+}
+
+.b2-sbt-cam-mob {
+    display: none;
 }
 
 .subtitle {
