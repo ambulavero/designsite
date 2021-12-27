@@ -439,3 +439,133 @@ body * {
 .cam {
     margin-right: 7.76px;
 }
+
+.online_c {
+    width: 817px;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 188px;
+    margin-left: 169px;
+}
+
+.online_tr {
+    width: 817px;
+    height: 434px;
+}
+
+.online_c-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.start-button {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.triangle_start {
+    width: 28px;
+    height: 28px;
+    margin-left: 6px;
+}
+
+.block3 {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 1715px;
+}
+
+.b3-line {
+    border: 1px solid #E3B873;
+    border-radius: 30%;
+    width: 55px;
+    height: 1.5px;
+    margin: 0 auto;
+    margin-top: 270.5px;
+}
+
+.b3-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #363636;
+    width: 681px;
+    height: 131px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 34.5px;
+}
+
+.input-bar {
+    margin: 0 auto;
+    margin-top: 91.5px;
+    width: 769px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.input-bar-button {
+    margin: 0;
+    width: 200px;
+    height: 51px;
+    font-style: normal;
+}
+
+.input-bar-name {
+    margin-right: 58px;
+    width: 231px;
+    height: 51px;
+}
+
+.input-bar-phone {
+    margin-right: 49px;
+    width: 231px;
+    height: 51px;
+}
+
+.input-bar-namephone__item {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+input[type="text"] {
+    font-family: 'Nunito Sans'; 
+    width: 231px;
+    height: 25px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    background: #ffffff !important; 
+    outline: none;   
+    color: black;
+}
+
+.input-pdata {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+

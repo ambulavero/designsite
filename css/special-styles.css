@@ -234,7 +234,7 @@ body * {
 .block2 {
     background-color: #131313;
     background-size: cover;
-    height: 1380px;
+    height: 2200px;
 }
 
 .box.block2-box {
@@ -521,6 +521,12 @@ body * {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 0 auto;
+}
+
+.online_tr {
+    width: 768px;
+    height: 400px;
 }
 
 .online_c-overlay {
