@@ -22,7 +22,7 @@ body * {
 }
 
 .box {
-    max-width: 768px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ body * {
     border: 0px solid #006398;
     box-shadow: 1px 1px 10px #AFE9FF;
 }
-  
+
 .menubut.color-change {
     -webkit-appearance: none;
     -moz-appearance: none;
