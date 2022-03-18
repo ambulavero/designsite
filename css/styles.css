@@ -397,8 +397,8 @@ body * {
 }
 
 .b2-sbt-cam {
-    width: 196px;
-    height: 67px;
+    width: 197px;
+    height: 69px;
     margin-top: 92px;
     display: flex;
     flex-flow: column wrap;
@@ -530,6 +530,10 @@ body * {
     font-style: normal;
 }
 
+.input-bar-button-mob {
+    display: none;
+}
+
 .input-bar-name {
     margin-right: 58px;
     width: 231px;
@@ -569,3 +573,88 @@ input[type="text"] {
     margin-top: 40px;
 }
 
+.input-pdata-mob {
+    display: none;
+}
+
+.checkbox.mystyle.mobile {
+    display: none;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox.mystyle {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox.mystyle input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox.mystyle input:checked ~ .checkbox__checkmark {
+    background-color: #E3B873;
+}
+
+.checkbox.mystyle input:checked ~ .checkbox__checkmark:after {
+    opacity: 1;
+}
+
+.checkbox.mystyle:hover input ~ .checkbox__checkmark {
+    background-color: #eee;
+}
+
+.checkbox.mystyle:hover input:checked ~ .checkbox__checkmark {
+    background-color: #E3B873;
+}
+
+.checkbox.mystyle .checkbox__checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    transition: background-color 0.25s ease;
+    border-radius: 1px;
+    margin-top: 39px;
+}
+
+.checkbox.mystyle .checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.checkbox.mystyle .checkbox__body {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 14px;
+    color: black;
+    margin-top: 39px;
+}
