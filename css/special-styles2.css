@@ -560,6 +560,7 @@ body * {
     height: 505px;
     min-width: 375px;
     position: relative;
+    display: flow-root;
 }
 
 .b3-line {
@@ -587,7 +588,7 @@ body * {
 
 .input-bar {
     width: 340px;
-    height: 311px;
+    height: 260px;
     margin: 0 auto;
     margin-top: 61px;
     display: flex;

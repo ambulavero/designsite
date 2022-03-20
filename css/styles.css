@@ -109,18 +109,18 @@ body * {
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
-  }
-  
+}
+
 .button:hover {
     color: #006398;
     border: 1px solid #006398;
     box-shadow: 2px 2px 10px #AFE9FF;
-  }
-  
+}
+
 .button.color-change {
     -webkit-appearance: none;
     -moz-appearance: none;
-  }
+}
 
 .block1 {
     background-image: url(../img/jpg/block1.jpg);
@@ -485,18 +485,20 @@ body * {
 }
 
 .block3 {
+    min-width: 1440px;
+    height: 1466px;
+    position: relative;
     display: flex;
-    align-items: center;
-    flex-flow: column nowrap;
-    height: 1715px;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .b3-line {
-    border: 1px solid #E3B873;
-    border-radius: 30%;
     width: 55px;
-    height: 1.5px;
-    margin: 0 auto;
+    height: 1.54px;
+    background-color: #E3B873;
+    border-radius: 30%;
+    align-self: center;
     margin-top: 270.5px;
 }
 
@@ -657,4 +659,43 @@ input[type="text"] {
     font-size: 14px;
     color: black;
     margin-top: 39px;
+}
+
+.checkbox-under {
+    margin: 0 auto;
+}
+
+.b3-sbt-tor {
+    width: 257px;
+    height: 68px;
+    margin-top: 148px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.subtitle.tortxt {
+    width: 257px;
+    height: 26px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #181818;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.torsvg {
+    width: 257px;
+    height: 28px;
+}
+
+.mecha-sbt {
+    width: 256px;
+    height: 28px;
+    margin-left: 1px;
 }
