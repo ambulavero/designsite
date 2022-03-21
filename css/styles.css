@@ -800,3 +800,14 @@ input[type="text"] {
     padding: 17px 15px;
     margin: 0px;
 }
+
+.block4 {
+    min-width: 1440px;
+    height: 2938px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
