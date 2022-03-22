@@ -486,7 +486,7 @@ body * {
 
 .block3 {
     min-width: 1440px;
-    height: 1609px;
+    height: 1619px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -809,11 +809,13 @@ input[type="text"] {
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    top: 1809px;
-
 }
 
 .b4-1mob {
     display: none;
 }
-
+.b4-1 {
+    min-width: 1440px;
+    height: 1018px;
+    display: flex;
+}
