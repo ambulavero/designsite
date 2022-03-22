@@ -635,7 +635,6 @@ input[type="text"] {
     background-color: #eee;
     transition: background-color 0.25s ease;
     border-radius: 1px;
-    margin-top: 39px;
 }
 
 .checkbox.mystyle .checkbox__checkmark:after {
@@ -659,11 +658,20 @@ input[type="text"] {
     line-height: 23px;
     font-size: 14px;
     color: black;
-    margin-top: 39px;
+}
+
+.checkbox.mystyle .checkbox__body-b4 {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 14px;
+    color: white;
 }
 
 .checkbox-under {
     margin: 0 auto;
+    margin-top: 38px;
 }
 
 .b3-sbt-tor {
@@ -814,8 +822,235 @@ input[type="text"] {
 .b4-1mob {
     display: none;
 }
+
 .b4-1 {
-    min-width: 1440px;
-    height: 1018px;
+    width: 1340px;
+    height: 726px;
+    margin-right: 100px;
+    margin-top: 106px;
     display: flex;
+    justify-content: space-between;
+}
+
+.b4-1-left {
+    width: 703px;
+    height: 645px;
+    position: relative;
+}
+
+.advantages {
+    width: 385px;
+    height: 474px;
+    position: absolute;
+    top: 117px;
+    right: 79px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.b4-adv {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+}
+
+.adv-num {
+    width: 33px;
+    height: 19px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 18px;
+    margin: 10px 4px 12px 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.b4-adv-txt {
+    width: 316px;
+    height: 39px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: #363636;
+    margin-left: 10px;
+}
+
+.b4-adv-txt2 {
+    width: 198px;
+    height: 39px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: #363636;
+    margin-left: 10px;
+}
+
+.b4-1-right {
+    width: 506px;
+    height: 726px;
+}
+
+.b4-1-right-2 {
+    width: 506px;
+    height: 509px;
+    margin-top: 106px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
+
+.b4-request {
+    margin: 28px 105px 39px 104px;
+    padding: 0px 15px;
+    width: 297px;
+    height: 47px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.b4-input {
+    margin: 0px 49px 18px 49px;
+    width: 408px;
+    height: 244px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.b4-input-n {
+    width: 408px;
+    height: 49px;
+    margin-bottom: 48px;
+}
+
+.b4-input-p {
+    width: 408px;
+    height: 49px;
+    margin-bottom: 48px;
+}
+
+.b4-input-e {
+    width: 408px;
+    height: 49px;
+}
+
+.input-npe_it {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.b4-input_it {
+    font-family: 'Nunito Sans';
+    width: 231px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    background: #ffffff !important;
+    outline: none;
+    color: #FFFFFF;
+}
+
+input[type="text-b4"] {
+    width: 408px;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    height: 23px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    background: none !important;
+    color: white;
+    padding: 0px;
+}
+
+.b4-input_it::-webkit-input-placeholder { 
+    color: white; 
+}
+
+.b4-checkbox {
+    width: 296px;
+    height: 18px;
+    margin: 0px 161px 39px 49px;
+}
+
+.b4-input-but {
+    width: 213px;
+    height: 51px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 431px;
+    left: 244px;
+    padding: 18px 22px;
+    margin: 0px;
+}
+
+.pig-save {
+    width: 506px;
+    height: 111px;
+}
+
+.pig-block {
+    width: 441px;
+    height: 72px;
+    margin: 38px 32px 0px 31px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.pig-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #E3B873;
+    margin-right: 25px;
+    position: relative;
+}
+
+.pig-svg {
+    width: 40px;
+    height: 33px;
+    margin: 19.48px 15px 19.48px 17px;
+    position: absolute;
+}
+
+.pig-save-txt {
+    width: 344px;
+    height: 47px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    margin-bottom: 12.5px;
 }
