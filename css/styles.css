@@ -809,5 +809,11 @@ input[type="text"] {
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
+    top: 1809px;
+
+}
+
+.b4-1mob {
+    display: none;
 }
 
