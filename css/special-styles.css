@@ -234,7 +234,7 @@ body * {
 .block2 {
     background-color: #131313;
     background-size: cover;
-    height: 2200px;
+    height: 1660px;
 }
 
 .box.block2-box {
@@ -557,3 +557,14 @@ body * {
     margin-left: 6px;
 }
 
+.block3 {
+    display: none;
+}
+
+.block4 {
+    display: none;
+}
+
+.block5 {
+    display: none;
+}
