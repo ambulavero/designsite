@@ -1134,6 +1134,12 @@ input[type="text-b4"] {
     margin-top: 5px;
 }
 
+.but-emteg-mob.tgs {
+    width: 20px;
+    height: 16px;
+    margin: 9px 0px 5px;
+}
+
 .button.but2.but-emteg-mob {
     height: 40px;
     width: 40px;
