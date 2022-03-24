@@ -1026,22 +1026,6 @@ input[type="text-b4"] {
     flex-flow: row nowrap;
 }
 
-.pig-img {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    background: #E3B873;
-    margin-right: 25px;
-    position: relative;
-}
-
-.pig-svg {
-    width: 40px;
-    height: 33px;
-    margin: 19.48px 15px 19.48px 17px;
-    position: absolute;
-}
-
 .pig-save-txt {
     width: 344px;
     height: 47px;
@@ -1057,4 +1041,60 @@ input[type="text-b4"] {
 
 .b4-request-mob {
     display: none;
+}
+
+.button.but-pig {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #E3B873;
+    margin-right: 25px;
+    position: relative;
+    padding: 18px 17px 19px;
+}
+
+.b4-2 {
+    margin: 0 auto;
+    margin-top: 130px;
+    min-width: 1440px;
+    height: 1019px;
+    display: flex;
+    position: relative;
+}
+
+.b4-2-bg {
+    width: 1440px;
+    height: 864px;
+    position: absolute;
+    top: 113px;
+}
+
+.b4-2-bg-cover {
+    width: 1440px;
+    height: 864px;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.tul-block {
+    width: 411px;
+    height: 629px;
+    margin: 250px 0px 0px 99px;
+}
+
+.tul-txt {
+    width: 411px;
+    height: 66px;
+    padding-right: 125px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 37px;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #E3B873;
 }
