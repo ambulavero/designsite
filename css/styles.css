@@ -199,6 +199,7 @@ body * {
     background-size: cover;
     height: 1074px;
     position: relative;
+    z-index: 2;
 }
 
 .block2-box {
@@ -492,6 +493,7 @@ body * {
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
+    z-index: 1;
 }
 
 .b3-line {
