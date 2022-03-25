@@ -1197,6 +1197,7 @@ input[type="text-b4"] {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    z-index: 2;
 }
 
 .b4-3-fb {
@@ -1359,4 +1360,106 @@ input[type="text-b4"] {
 .fb-ppl-but-txt2 {
     width: 82px;
     height: 20px;
+}
+
+.bgr4b5 {
+    position: absolute;
+    top: 2303px;
+    z-index: 1;
+}
+
+.b4-4 {
+    width: 883px;
+    height: 446px;
+    position: absolute;
+    top: 2840px;
+    background: #181818;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b4-txt{
+    width: 257px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-style: normal;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.b4-4-inp {
+    width: 520px;
+    height: 305px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 46px;
+}
+
+.b4-4n {
+    width: 231px;
+    height: 45px;
+    margin-bottom: 49px;
+}
+
+.b4-4p {
+    width: 231px;
+    height: 45px;
+    margin-bottom: 49px;
+    margin-left: 58px;
+}
+
+.b4-4q {
+    width: 520px;
+    height: 45px;
+}
+
+input[type="text-b4-4"] {
+    width: 231px; 
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    background: none !important;
+    color: white;
+    padding: 0px;
+}
+
+input[type="text-b4-4-q"] {
+    width: 517px; 
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    height: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    background: none !important;
+    color: white;
+    padding: 0px;
+}
+
+.b4-4-checkbox {
+    width: 296px;
+    height: 19px;
+    margin: 0 auto;
+    margin-top: 47px;
+}
+
+.linebreak {
+    width: 100%;
+}
+
+.b4-input-but2 {
+    width: 200px;
+    height: 51px;
+    margin: 0 auto;
+    margin-top: 51px;
 }
