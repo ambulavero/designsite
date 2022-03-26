@@ -1103,7 +1103,7 @@ input[type="text-b4"] {
     margin: 0 auto;
 }
 
-.mbm-adress {
+.mbm-address {
     width: 340px;
     height: 71px;
     padding: 0px 8px;
@@ -1165,5 +1165,13 @@ input[type="text-b4"] {
 }
 
 .bgr4b5 {
+    display: none;
+}
+
+.block5 {
+    display: none;
+}
+
+.footer {
     display: none;
 }

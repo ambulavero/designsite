@@ -813,7 +813,7 @@ input[type="text"] {
 
 .block4 {
     min-width: 1440px;
-    height: 2938px;
+    height: 3070px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1462,4 +1462,112 @@ input[type="text-b4-4-q"] {
     height: 51px;
     margin: 0 auto;
     margin-top: 51px;
+}
+
+.block5 {
+    min-width: 1440px;
+    height: 954px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(0 0 0 / 93%) 3.47%, rgb(0 0 0 / 89%) 100%);
+    z-index: 1;
+}
+
+.b5-map {
+    width: 1440px;
+    height: 954px;
+    background: url(../img/jpg/b5bgr.png);
+}
+
+.b5m-bgr {
+    width: 1440px;
+    height: 954px;
+    background: linear-gradient(180deg, rgb(0 0 0 / 90%) 3.47%, rgb(0 0 0 / 81%) 100%);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.b5-address {
+    margin-top: 275px;
+}
+
+.b5m-adr {
+    margin: 0px;
+    width: 589px;
+    height: 51px;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E3B873;
+}
+
+.b5-2but {
+    width: 76px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.button.b5but {
+    height: 28px;
+    width: 28px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.button.b5but.b5tg {
+    margin-left: 15px;
+}
+
+.but-b5 {
+    width: 14px;
+    height: 12px;
+    margin-top: 4px;
+}
+
+.but-b5.tg5 {
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.iobanitegA {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.b5-map-block {
+    width: 925px;
+    height: 465px;
+    margin-top: 43px;
+    margin-bottom: 66px;
+}
+
+.footer {
+    background: #181818;
+    min-width: 1440px;
+    height: 133px;
+}
+
+.footmargin {
+    min-width: 1440px;
+    margin-top: 0px
+}
+
+.header-content.foot {
+    height: 133px;
 }
