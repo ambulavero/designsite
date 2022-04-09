@@ -62,6 +62,15 @@ body * {
     margin-right: 47px;
 }
 
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-navigation__item a:hover {
+    color: #E3B873;
+}
+
 .cts {
     width: 67px;
     margin-right: 67px;
@@ -114,7 +123,7 @@ body * {
 .button:hover {
     color: #006398;
     border: 1px solid #006398;
-    box-shadow: 2px 2px 10px #AFE9FF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);;
 }
 
 .button.color-change {
@@ -190,8 +199,8 @@ body * {
 
 .but2-1:hover {
     color: #E3B873;
-    border: 1px solid #006398;
-    box-shadow: 2px 2px 10px #AFE9FF;
+    border: 1px solid #E3B873;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
 }
 
 .block2 {
@@ -381,14 +390,14 @@ body * {
     Font-size: 14px;
     Line-height: 19.4px;
     Vertical-align: Top;
-    color: #E3B873;
+    color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
-    border-bottom: 1px solid #E3B873;
+    border: none;
 }
 
-.b22-a2 {
-    color: rgba(255, 255, 255, 0.3);
-    border: none;
+.b22-a:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
 }
 
 .boda-img {
@@ -1064,25 +1073,15 @@ input[type="text-b4"] {
     position: relative;
 }
 
-.b4-2-bg-un {
-    width: 100vw;
-    z-index: -1;
-    background: black;
-    height: 865px;
-    z-index: -1;
-    position: absolute;
-    top: 1075px;
-}
-
 .b4-2-bg {
-    width: 1440px;
+    min-width: 1440px;
     height: 864px;
     position: absolute;
     top: 113px;
 }
 
 .b4-2-bg-cover {
-    width: 1440px;
+    min-width: 1440px;
     height: 865px;
     position: absolute;
     top: 0px;
@@ -1131,12 +1130,10 @@ input[type="text-b4"] {
     margin-bottom: 25px;
 }
 
-.tul-ul_it.tul-active_it {
-    width: 150px;
+.tul-ul_it:hover {
     color: #E3B873;
     border-bottom: 1px solid #E3B873;
 }
-
 .b4-2-img {
     width: 751px;
     height: 1019px;
